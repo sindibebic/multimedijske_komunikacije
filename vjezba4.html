@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Formular</title>
+    <link rel="stylesheet" href="4.css">
+</head>
+    
+    
+<style>
+ .gornji {
+    position:relative;
+    margin-top: auto;
+    top:15px;
+    margin-left:10px;
+    width:120px;
+    height:40px;
+    background:rgba(0,0,0,.5);
+    border:1px solid black;
+    border-radius:3px;
+    font-family:Arial;
+    text-align:center;
+    font-weight:bold;
+    float:left;
+    padding:10px;
+    box-sizing:border-box;
+    color:white;}
+
+a {
+    text-decoration:none;
+    color:white;}
+.f1 {
+    top:100px;
+    left:350px;
+    width:350px;
+    height:320px;
+    border: none;}
+</style>
+
+
+<body>
+
+
+   <a href="o_meni.html" target="f1"><div class="gornji">O MENI</div></a>            
+    <a href="vjezba_2.html" target="f1"><div class="gornji">VJEŽBA 2</div></a>
+    <a href="vjezba3.html" target="f1"><div class="gornji">VJEŽBA 3</div></a>
+    <a href="logo.html" target="f1"><div class="gornji">LOGO</div></a>  
+    <a href="vjezba5.html" target="f1"><div class="gornji">VJEŽBE 5 I 8</div></a>
+<a href="vjezba9.html" target="f1"><div class="gornji">VJEŽBA 9</div></a>	
+    <a href="index.html" target="f1"><div class="gornji">VRATI ME!</div></a>  
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    
+
+        <center>
+
+    <form action="">
+        <label for="ime">Ime</label>
+        <input type="text" id="ime" placeholder="Vaše ime..." autofocus required>
+        <label for="prezime">Prezime</label>
+        <input type="text" id="prezime" placeholder="Vaše prezime..." required>
+        <label for="lozinka">Password</label>
+        <input type="password" id="lozinka" maxlength="10" required>
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required>
+        <label for="web">Web adresa</label>
+        <input type="url" id="web" placeholder="grf.unizg.hr">
+        <label for="rodjendan">Datum rođenja</label>
+        <input type="date" id="rodjendan">
+        <label for="mobilni">Kontakt broj</label>
+        <input type="number" id="mobilni">
+
+        <fieldset>
+            <legend>Spol</legend>
+            <input type="radio" value="M" id="M" name="spol"><label for="M">muški</label> 
+            <input type="radio" value="F" id="F" name="spol"><label for="F">ženski</label> 
+        </fieldset>
+        
+        <fieldset>
+            <legend>Koji smjer si upisao/la?</legend>
+            <input type="radio" value="ORP" id="ORP" name="obvezni"><label for="ORP">Dizajn grafičkih proizvoda</label> 
+            <input type="radio" value="RF1" id="RF1" name="obvezni"><label for="RF1">Grafička tehnologija</label> 
+        </fieldset>
+
+        <label for="izborni">Izaberite način kontaktiranja</label>
+        <select name="izborni">
+            <option>Telefon</option>
+            <option>Mail</option>
+        </select>
+
+        <label for="boja">Odaberite najdražu boju</label>
+        <input type="color" id="boja" name="boja">
+
+        <label for="poruka">Dodatne informacije</label>
+        <input type="text" id="poruka" name="poruka">
+
+        <input type="reset" value="Poništi">
+        <input type="submit" value="Prihvati">
+    </form>  </center>
+    
+</body>
+</html>

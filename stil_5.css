@@ -1,0 +1,131 @@
+body {
+    margin: 0;
+    background-image: url(pp/pozadina5.jpg);
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+
+
+
+
+div {
+    width: 150px;
+    height: 150px;
+    border: 5px solid black;
+    box-sizing: border-box;
+    font-weight: bold;
+    text-align: center;
+    line-height: 140px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 350px;
+}
+
+nav {
+    text-align: center;
+}
+
+.red1 {
+    top: 0;
+    font-family: Garamond;
+    font-size: 50px;
+}
+.red2 {
+    top: 150px;
+    font-family: Garamond;
+    font-size: 50px;
+}
+.red3 {
+    top: 300px;
+    font-family: Garamond;
+    font-size: 50px;
+}
+
+
+.stupac1 {
+    left: 0;
+    border-radius: 50%;
+}
+.stupac2 {
+    left: 150px;
+    border-radius: 50%;
+}
+.stupac3 {
+    left: 300px;
+    border-radius: 50%;
+}
+.stupac4 {
+    left: 450px;
+    border-radius: 50%;
+}
+.stupac5 {
+    left: 600px;
+    border-radius: 50%;
+}
+
+
+
+.red1.stupac1 {
+    background-color: rgba(190, 209, 205,.5);
+}
+.red1.stupac3 {
+    background-color: rgba(218, 208, 200,.5);
+}
+.red1.stupac5 {
+    background-color: rgba(190, 174, 210,.5)
+}
+.red2.stupac2 {
+    background-color: rgba(253, 232, 212,.5);
+}
+.red2.stupac4 {
+    background-color: rgba(236, 212, 206,.5);
+}
+.red3.stupac1 {
+    background-color: rgba(189, 181, 170,.5);
+}
+.red3.stupac3 {
+    background-color: rgba(184, 104, 72,.5);
+    color: white;
+}
+.red3.stupac5 {
+    background-color: rgba(130, 42, 32,.5);
+}
+.red4.stupac2 {
+    background-color: rgba(168, 176, 185,.5);
+}
+.red4.stupac4 {
+    background-color: rgba(128, 111, 105.5);
+}
+.red5.stupac1 {
+    background-color: rgba(109, 108, 94,.5);
+}
+.red5.stupac3 {
+    background-color: rgba(149, 163, 112,.5);
+}
+.red5.stupac5 {
+    background-color: rgba(171, 141, 156,.5);
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .container div {
+        border-radius: 50%;
+        border-width: 1px;
+        position: static;
+        float: left;
+    }
+
+    .red3.stupac3 {
+        color: inherit;
+    }
+
+    .red5.stupac5 {
+        display: none;
+    }
+}
+
+

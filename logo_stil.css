@@ -1,0 +1,56 @@
+head {
+    text-align: center;
+    background-color: rgb(250, 235, 215);
+}
+
+body{
+    background-color: rgb(250, 235, 215);
+}
+
+
+#zadatak2 {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+}
+
+#zadatak2 table {
+    width: 200px;
+    height: 200px;
+    float: left;
+    border: 5px solid black;
+    box-sizing: border-box;
+}
+
+#prva {
+    background-color: rgb(219, 195, 207);
+    border-radius: 30px 70px 0 70px;
+    border-color: rgb(219, 195, 207);
+}
+
+#druga {
+    background-color: rgb(219, 207, 195);
+    border-radius: 70px 30px 70px 0;
+    border-color: rgb(219, 207, 195);
+}
+
+#treca {
+    background-color: rgb(195, 219, 207);
+    border-radius: 70px 0 70px 30px ;
+    border-color: rgb(195, 219, 207);
+}
+
+#cetvrta {
+    background-color: rgb(195, 207, 219);
+    border-radius: 0 70px 30px 70px;
+    border-color: rgb(195, 207, 219);
+}
+
+
+
+
+
+
+
+
+

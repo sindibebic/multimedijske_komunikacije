@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vjezba 9</title>
+
+<style type="text/css">
+    
+
+
+
+
+    body {
+         background-color: rgb(250, 235, 215);
+    margin: 0;
+    background-image: url(grid.jpg);
+}
+#zad1 {
+    margin: 99px;
+    width: 500px;
+    height: 500px;
+    box-shadow: 4px 4px 10px 3px #0005;
+}
+
+#prva  {
+    margin-left: 50px;
+    width: 100px;
+    height: 100px;
+    border: 0px solid blue;
+    animation-name: anim1;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+#druga {
+    margin-left: 400px;
+    width: 100px;
+    height: 100px;
+    border: 0px solid red;
+    animation-name: anim2;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+
+h1 {
+
+    margin-left: 1px;
+    font-family: calibri;
+}
+
+@keyframes anim1 {
+
+     0%,
+    100% {
+        transform: translateX(-180px) translateY(185px);
+      
+
+        transform-origin: 50% 50%;
+       background-color: darkred;
+    }
+
+    15% {
+        transform: translateX(-30px) translateY(20px) rotate(-6deg);
+               background-color: cadetblue;
+
+    }s
+
+    30% {
+        transform: translateX(15px) translateY(40px) rotate(6deg);
+
+               background-color: dimgray;
+
+    }
+
+    45% {
+        transform: translateX(-15px) translateY(60px) rotate(-3.6deg);
+
+               background-color: darkkhaki;
+
+    }
+
+    60% {
+        transform: translateX(9px) translateY(80px) rotate(2.4deg);
+
+         background-color: thistle;
+    }
+
+    75% {
+        transform: translateX(-6px) translateY(100px) rotate(-1.2deg);
+
+         background-color: rosybrown;
+    }
+}
+
+
+
+
+@keyframes anim2 {
+
+     0%,
+    100% {
+        transform: translateX(-40px) translateY(90px);
+      
+
+        transform-origin: 50% 50%;
+       background-color: mediumseagreen;
+    }
+
+    15% {
+        transform: translateX(-30px) translateY(20px) rotate(-6deg);
+               background-color: cadetblue;
+
+    }
+
+    30% {
+        transform: translateX(15px) translateY(40px) rotate(6deg);
+
+               background-color: darkred;
+
+    }
+
+    45% {
+        transform: translateX(-15px) translateY(60px) rotate(-3.6deg);
+
+               background-color: darkkhaki;
+
+    }
+
+    60% {
+        transform: translateX(9px) translateY(80px) rotate(2.4deg);
+
+         background-color: black;
+    }
+
+    75% {
+        transform: translateX(-6px) translateY(100px) rotate(-1.2deg);
+
+         background-color: rosybrown;
+    }
+}
+
+.gornji {
+    position:relative;
+    margin-top: auto;
+    top:15px;
+    margin-left:10px;
+    width:120px;
+    height:40px;
+    background:rgba(0,0,0,.5);
+    border:1px solid black;
+    border-radius:3px;
+    font-family:Arial;
+    text-align:center;
+    font-weight:bold;
+    float:left;
+    padding:10px;
+    box-sizing:border-box;
+    color:white;}
+
+a {
+    text-decoration:none;
+    color:white;}
+
+
+
+
+/* ###################################################################### */
+
+</style>
+</head>
+
+<body>
+
+
+   <a href="o_meni.html" target="f1"><div class="gornji">O MENI</div></a>            
+    <a href="vjezba_2.html" target="f1"><div class="gornji">VJEŽBA 2</div></a>
+    <a href="vjezba3.html" target="f1"><div class="gornji">VJEŽBA 3</div></a>
+    <a href="logo.html" target="f1"><div class="gornji">LOGO</div></a>  
+    <a href="vjezba5.html" target="f1"><div class="gornji">VJEŽBE 5 I 8</div></a>  
+    <a href="index.html" target="f1"><div class="gornji">VRATI ME!</div></a>  
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+    
+
+        <center>
+
+    <section id="zad1">
+        <div id="prva"></div>
+         <div id="druga"></div>
+         <h1>SRETNI BLAGDANI!</h1>
+    </section>
+
+     
+
+    
+    
+</body>
+</html>

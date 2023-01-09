@@ -1,0 +1,94 @@
+body {
+	background-color: rgb(250, 235, 215);
+	text-align: center;
+	padding-left: 25px;
+}
+
+#zadatak1 ol.prva {
+	font-family: calibri;
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: bold;
+    text-transform: uppercase;
+	color: black;
+	display: inline-block;
+}
+
+#zadatak1 ol.prva li {
+	background-color: rgb(95, 158, 160);
+	font-family: calibri;
+	font-size: 20px;
+	margin-top: 10px;
+	display: inline;
+	float: left;
+	list-style: none;
+	text-align: center;
+	padding: 0 20px;
+	display: inline-block;
+
+}
+
+#zadatak1 .druga {
+    font-family: Calibri;
+    font-size: 20px;
+    color: black ;
+    list-style-type: upper-alpha;
+    text-align: center;
+    display: inline-block;
+}
+
+
+
+
+#zadatak1 .druga h1 {
+	font-family: calibri;
+	font-size: 20px;
+	margin-top: 10px;
+	text-align: center;
+
+}
+
+#zadatak1 .druga, #zadatak1 .treca {
+    border-top: 1px solid black;
+    padding-top: 20px;
+    width: 500px;
+    text-align: center;
+  }  
+
+#zadatak2 h1, #zadatak2 ul {
+    font-family: 'Permanent Marker', cursive;
+    color: rgb(95, 158, 160);
+    text-align: center;
+}
+
+#zadatak2 > ul {
+	text-align: center;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    width: 500px;
+    padding: 20px 0;
+    list-style-type: none;
+    display: inline-block;
+}
+
+#zadatak2 ul ul {
+    font-family: 'Kalam', cursive;
+    color: black;
+    text-align: center;
+}
+
+#zadatak1 .treca em {
+    color: rgb(95, 158, 160);
+    font: bold italic 26px/1em "Brush Script MT";
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
